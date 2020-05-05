@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" type="image/png" href="static/512.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="static/512.png">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@900&display=swap" rel="stylesheet">
+    <title>Firestarter</title>
+    <style>
+            #fire, h1{ position: absolute; top:50%;left:50%; transform: translate(-50%, -50%) }
+            #fire{ max-width:30vw }
+            h1{ font-family:"Alegreya", serif; font-size:10vw; color:white; text-shadow: -1px -1px 0px black, 0px 1px 0px black, 1px 0px 0px black, 0px 0px 10px rgba(0,0,0,0.25); }
+    </style>
+</head>
+
+<body>
+    <noscript>By not using Javascript you're losing like 90% of the point of the site. Sorry!</noscript>
+    <img src="static/fire.svg" id="fire">
+    <h1>Firestarter</h1>
+    <script>
+        var w = navigator.serviceWorker;
+        (w && !w.controller) && (w.register("./sw.js"));
+    </script>
+</body>
+
+</html>

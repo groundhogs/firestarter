@@ -1,0 +1,17 @@
+{
+  "name": "firestarter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/groundhogs/firestarter.git",
+  "author": "Carlos Vergara",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "4.14.0",
+    "parcel-bundler": "1.12.4",
+    "parcel-plugin-static-files-copy": "^2.3.1"
+  },
+  "scripts": {
+    "develop": "parcel *.html",
+    "build": "parcel build *.html"
+  }
+}
