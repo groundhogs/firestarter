@@ -1,4 +1,4 @@
-# ![](static\earthy-thing.png)
+# ![](static/earthy-thing.png)
 
 # Firestarter
 
