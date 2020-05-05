@@ -10,6 +10,10 @@ It provides a sturdy starting point for sketching up web interfaces without much
 
 Comes out of the box with `parcel-plugin-static-files-copy`, `SASS` support and an easily extensible, if a bit primitive service worker, making the default starting point already an installable PWA. 
 
+## Getting it
+
+To download, [click on this link](https://github.com/groundhogs/firestarter/archive/v1.0.0.zip). Releases are launched periodically, only major versions are ever going to be linked here; visit [the releases page](https://github.com/groundhogs/firestarter/releases) instead to get the latest releases there are.
+
 ## Scripts
 
 * `yarn develop` gives you a hot-reloading, live coding environment and 
