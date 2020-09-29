@@ -1,6 +1,6 @@
 {
   "name": "firestarter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/groundhogs/firestarter.git",
   "author": "Carlos Vergara",
